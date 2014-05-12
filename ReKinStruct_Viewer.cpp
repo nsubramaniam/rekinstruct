@@ -53,7 +53,7 @@ int main()
 		}
 
 		wait(WAIT_TIME);
-		cin>>c;
+		//cin>>c;
 		cout << "Changing point clouds"<<endl;
 		viewer.showCloud(cloud1);
 		sprintf(output,"%s%d.pcd",out,count);
